@@ -7,8 +7,7 @@ target 'r2-shared-swift' do
   
   # Pods for r2-shared-swift  
   pod 'Fuzi', '3.1.2'
-  pod 'Minizip', '1.0.0'  
-  # pod 'Minizip', :git => 'https://github.com/dexman/Minizip.git', :tag => '1.4.0'  
+  pod 'Minizip', '1.0.0'
 
   target 'r2-shared-swiftTests' do
     # Pods for testing
