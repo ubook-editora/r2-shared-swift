@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   
-  s.name         = 'UbookR2Shared'
+  s.name         = 'R2Shared'
   s.version      = '2.0.0-alpha.1-fix.3'
   s.license      = 'BSD 3-Clause License'
   s.summary      = 'R2 Shared'
