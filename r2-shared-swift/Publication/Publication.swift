@@ -280,7 +280,7 @@ public class Publication: JSONEquatable, Loggable {
             self.init(format: .of(file, mediaTypes: mimetypes, fileExtensions: []))
         }
         
-        private init(format: R2Shared.Format?) {
+        private init(format: FileFormat?) {
             guard let format = format else {
                 self = .unknown
                 return

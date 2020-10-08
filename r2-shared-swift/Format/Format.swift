@@ -11,6 +11,8 @@
 
 import Foundation
 
+public typealias FileFormat = Format
+
 /// Represents a known file format, uniquely identified by a media type.
 public struct Format: Equatable, Hashable, Loggable {
 
